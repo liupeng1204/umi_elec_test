@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "author": "liupeng1204 <18550888998@163.com>",
+  "main": "main.js",
+  "scripts": {
+    "package-mac": "node packager.mac.js",
+    "package-windows": "cross-env NODE_ENV=production node packager.windows.js"
+  },
+  "dependencies": {
+    "serialport": "^11.0.1"
+  },
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-packager": "^17.1.1"
+  }
+}
